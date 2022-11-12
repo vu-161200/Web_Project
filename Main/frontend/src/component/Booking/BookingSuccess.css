@@ -1,0 +1,38 @@
+.bookingSuccess {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookingSuccess > svg {
+  font-size: 10vmax;
+  color: tomato;
+  margin-bottom: 3vmax;
+}
+
+.bookingSuccess > p {
+  font-size: 2vmax;
+}
+
+.bookingSuccess > a {
+  background-color: rgba(51, 51, 51, 0.903);
+  color: white;
+  border: none;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 500 1.1vmax "Roboto";
+  text-decoration: none;
+  border-radius: 0.3vmax;
+  margin: 1.5vmax 2vmax;
+  transition: all 0.75s;
+}
+
+.bookingSuccess > a:hover {
+  background-color: rgba(23, 22, 22, 0.903);
+  transform: scale(1.1);
+}

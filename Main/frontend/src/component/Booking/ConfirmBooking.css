@@ -1,0 +1,182 @@
+.confirmBookingContainer {
+  padding: 3vmax 7vmax;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+.confirmBookingContainer > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+  height: 100%;
+}
+
+.confirmBookingArea:first-child {
+  padding: 0 5vmax;
+}
+
+.confirmBookingArea:not(:first-child) {
+  padding: 3vmax 5vmax;
+  padding-bottom: 0%;
+}
+
+.confirmBookingArea > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.confirmBookingAreaBox,
+.confirmCartItemsContainer {
+  margin: 2vmax;
+}
+
+.confirmBookingAreaBox > div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+.confirmBookingAreaBox > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+.confirmBookingAreaBox > div > span {
+  margin: 0 1vmax;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}
+
+.confirmRoomBooked {
+  padding: 3vmax 5vmax 0 5vmax;
+}
+
+.confirmRoomBooked > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.confirmRoomBooked > div {
+  display: flex;
+  margin: 2vmax;
+}
+
+.confirmRoomBooked > div:nth-child(4) {
+  display: flex;
+  margin-bottom: 1vmax;
+}
+
+.confirmRoomBooked > div:last-child {
+  display: flex;
+  margin: 0 2vmax;
+}
+
+.confirmRoomBooked > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+
+.confirmRoomBooked > div > span {
+  margin: 0 1vmax;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}
+
+.confirmRoomBookedContainer {
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+
+.confirmRoomBookedContainer > div {
+  display: flex;
+  font: 400 1vmax "Roboto";
+  align-items: center;
+  justify-content: space-between;
+}
+
+.confirmRoomBookedContainer > div > img {
+  width: 5vmax;
+  max-height: 5.5vmax;
+  object-fit: cover;
+}
+
+.confirmRoomBookedContainer > div > div {
+  margin: 0 1vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.confirmRoomBookedContainer > div > div > a {
+  color: #575757;
+  text-decoration: none;
+  transition: all 0.5s;
+  margin-bottom: 1.3vh;
+  margin-top: 0.5vh;
+}
+
+.confirmRoomBookedContainer > div > div > a:hover {
+  color: coral;
+}
+
+.confirmRoomBookedContainer > div > div > span {
+  font: 300 0.9vmax "Roboto";
+  color: rgba(24, 24, 24, 0.815);
+  margin-top: 1.3vh;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.bookingSummary {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10vmax 4vmax;
+}
+
+.bookingSummary > p {
+  text-align: center;
+  font: 400 1.8vmax "Roboto";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  padding: 1vmax;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.bookingSummary > div > div {
+  display: flex;
+  font: 500 1vmax "Roboto";
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+.bookingSummary > div > div > span {
+  color: rgba(0, 0, 0, 0.801);
+  font-weight: bold;
+}
+
+.bookingSummaryTotal {
+  display: flex;
+  font: 300 1vmax "Roboto";
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.363);
+  padding: 2vmax 0;
+  margin-bottom: 2.5vmax;
+}
+
+.bookingSummary > button {
+  background-color: tomato;
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  font: 500 1vmax "Roboto";
+}
+
+.bookingSummary > button:hover {
+  background-color: rgb(192, 71, 50);
+  transform: scale(1.05);
+}

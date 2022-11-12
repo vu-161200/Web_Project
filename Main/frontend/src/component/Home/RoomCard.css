@@ -1,0 +1,153 @@
+.roomCard {
+  width: 16vmax;
+  height: 30vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  position: relative;
+}
+
+.roomCard > img {
+  height: 60%;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roomCardRate {
+  margin: 0.5vmax 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.roomCardRate > span {
+  font: 300 0.75vmax "Roboto";
+}
+
+.roomCardRate > span:last-child {
+  margin-left: 1vmax;
+  font-family: cursive;
+}
+
+.roomCardAddress {
+  margin: 0.5vmax;
+  margin-top: 1vmax;
+  font: 300 0.8vmax "Roboto";
+  display: flex;
+}
+
+.roomCardAddress {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.roomCardAddress > i {
+  width: 0.75vmax;
+  height: 0.75vmax;
+  background: url(../../assets/images/Location.svg) center no-repeat;
+  background-size: contain;
+  display: inline-flex;
+  margin-right: 0.3vw;
+}
+
+.roomCard > p {
+  font-family: "Roboto";
+  font-size: 1.1vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.roomCardPrice {
+  margin: 0.5vmax;
+  margin-top: 0.75vmax;
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1vmax;
+}
+
+.roomCardPrice > i {
+  width: 0.75vmax;
+  height: 0.75vmax;
+  background: url(../../assets/images/price.svg) center no-repeat;
+  background-size: contain;
+  display: inline-flex;
+  margin-right: 0.3vw;
+}
+
+.roomCard:hover {
+  box-shadow: 0 0 5px grey;
+  transform: translateY(-1vmax);
+}
+
+.roomCardStatus {
+  position: absolute;
+  width: 5vmax;
+  height: 1.3vmax;
+  color: white;
+  top: 0.75vmax;
+  left: 0.75vmax;
+}
+
+.roomCardStatus > p {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center; /** Y-axis align **/
+  justify-content: center; /** X-axis align **/
+}
+
+.status0 {
+  background-color: red;
+  border-radius: 0.3vmax;
+  font: 700 0.85vmax "Roboto";
+}
+
+.status1 {
+  width: 6vmax;
+  background-color: green;
+  border-radius: 0.3vmax;
+  font: 700 0.85vmax "Roboto";
+}
+
+.MuiRating-icon > .MuiSvgIcon-root {
+  font-size: 1.3vmax;
+}
+
+.MuiRating-root {
+  margin-left: 0.5vmax;
+}
+
+@media screen and (max-width: 600px) {
+  .roomCard > p {
+    font-size: 1.7vmax;
+  }
+
+  .roomCard > div {
+    margin: 0vmax;
+    display: block;
+  }
+
+  .roomCard > span {
+    font-size: 1.5vmax;
+  }
+
+  .roomCard > div > span {
+    margin: 0 0.5vmax;
+    font: 300 1vmax "Roboto";
+  }
+}

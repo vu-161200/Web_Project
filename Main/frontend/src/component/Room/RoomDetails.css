@@ -1,0 +1,432 @@
+.BREADCRUMB {
+  padding: 4vmax 5vmax 0 5vmax;
+  max-width: 100%;
+  font-size: 26px;
+}
+
+.containerDetails {
+  display: flex;
+  max-width: 100%;
+  padding: 0.5vmax 5vmax 0.5vmax 5vmax;
+  box-sizing: border-box;
+}
+
+.containerSlide {
+  background: #000;
+  height: 35vw;
+  max-height: 35vw;
+  min-height: 35vw;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  height: inherit;
+  width: inherit;
+  font-size: 1.2vmax;
+  color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerPosterInfor {
+  width: 28%;
+  margin-left: 1vw;
+  display: block;
+  background-color: rgba(84, 159, 164, 0.552);
+  text-align: center;
+  padding: 1.5vmax;
+  border-radius: 0.5vw;
+}
+
+.containerPosterInfor > h1 {
+  font-size: 1.6vw;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.containerPosterInfor > img {
+  margin-top: 1.45vw;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: gray;
+}
+
+.posterName {
+  margin-top: 1.4vw;
+  font-size: 1.2vmax;
+  font-weight: bold;
+  margin-bottom: 2.4vw;
+}
+
+.contact {
+  border: solid 1px transparent;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.posterPhoneNumber:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #16c783b2, #18c482);
+  border: 1px solid gray;
+}
+
+.posterPhoneNumber {
+  margin-bottom: 0.5vw;
+  margin-bottom: 2vw;
+  font-weight: 700;
+  font-size: 1.05vw;
+  width: 100%;
+  background: linear-gradient(to right, #16c783b2, #1a9c6a);
+}
+
+.posterPhoneNumber > i {
+  width: 1.5vw;
+  height: 1.5vw;
+  background: url(../../assets/images/phone.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.3vw;
+}
+
+.posterZalo:hover {
+  border: 1px solid gray;
+}
+
+.posterZalo {
+  margin-bottom: 0.5vw;
+  font-weight: 700;
+  font-size: 1vw;
+  width: 100%;
+  background: linear-gradient(45deg, #56acafb2, #238588);
+}
+
+.posterZalo > i {
+  width: 1.5vw;
+  height: 1.5vw;
+  background: url(../../assets/images/zalo.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.3vw;
+}
+
+.posterZalo:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  font-weight: 700;
+  font-size: 1vw;
+  width: 100%;
+  background: linear-gradient(45deg, #56acafb2, #238588);
+}
+
+.message > i {
+  width: 1.5vw;
+  height: 1.5vw;
+  background: url(../../assets/images/chat.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.3vw;
+}
+
+.message:hover {
+  transform: scale(1.05);
+}
+
+.h1-header {
+  font: 700 1.3vw "Roboto";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  width: 15vmax;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2vw;
+  margin-top: 3vw;
+}
+
+.containerRoom {
+  padding: 0.5vmax 5vmax 0.5vmax 5vmax;
+  display: flex;
+  max-width: 100%;
+  /* height: 60vw; */
+}
+
+.roomHeader {
+  padding: 1vw 1vw 0 1vw;
+  width: 72%;
+}
+
+.roomHeader > a {
+  color: rgb(235, 5, 51);
+  font-weight: 700;
+  font-size: 1.6vw;
+}
+
+.roomAttributes {
+  display: flex;
+  margin-top: 1.2vw;
+  margin-bottom: 2vw;
+}
+
+.attribute {
+  font-size: 1vw;
+  margin-right: 3vw;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+}
+
+.roomPrice {
+  font-size: 1.2vw;
+  color: blue;
+  font-weight: bold;
+  margin-right: 3vw;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+}
+
+.roomPrice > i {
+  width: 1vw;
+  height: 1vw;
+  background: url(../../assets/images/price.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.5vw;
+}
+
+.roomArea > i {
+  width: 1vw;
+  height: 1vw;
+  background: url(../../assets/images/acreage.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.5vw;
+  text-align: center;
+}
+
+.roomTime > i {
+  width: 1.2vw;
+  height: 1.2vw;
+  background: url(../../assets/images/time.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.5vw;
+  text-align: center;
+}
+
+.roomID > i {
+  width: 1.2vw;
+  height: 1.2vw;
+  background: url(../../assets/images/hashtag.svg) center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 0.5vw;
+  text-align: center;
+}
+
+.roomDescription {
+  margin-top: 0.5vw;
+  margin-bottom: 2vw;
+  font-size: 1.05vw;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+table {
+  margin-top: 1vw;
+  margin-bottom: 2.5vw;
+  width: 100%;
+}
+
+table > tbody > tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.15);
+}
+
+table > tbody > tr > th {
+  padding: 0.5vw;
+  font-size: 1.1vw;
+  font-weight: 700;
+  text-align: start;
+  justify-content: center;
+  width: 25% !important;
+}
+
+table > tbody > tr > td {
+  font-size: 1.05vw;
+  padding: 0.5vw;
+  text-align: start;
+  justify-content: center;
+}
+
+.roomDetailsAddressLabel {
+  margin-bottom: 0.5vmax;
+  font: normal 1vmax "Roboto";
+  line-height: 1.5;
+}
+
+.roomDetailsAddressMap {
+  height: 60vh;
+  position: relative;
+}
+
+tr:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.totalRating {
+  background-color: rgba(173, 216, 230, 0.505);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  padding: 0.25vmax;
+  width: 10vmax;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1vw;
+}
+
+.totalRating > div {
+  margin: 0.25vw 0 0.25vw 0;
+}
+
+.roomRating {
+  color: crimson;
+  font: 700 1.5vmax "Roboto";
+}
+
+.maxRating {
+  color: crimson;
+  font: normal 1vmax "Roboto";
+}
+
+.reviewCard {
+  width: inherit;
+  display: flex;
+  align-items: flex-start;
+  margin: 1vmax;
+  padding: 0.5vw 0 1vw 0;
+  border-bottom: 1px solid gray;
+}
+
+.reviewCard:first-child {
+  padding-top: 1.5vw;
+}
+
+.reviewInfo {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.reviewCard > .reviewInfo > img {
+  width: 5vw;
+  height: 3.5vw;
+  border-radius: 100%;
+}
+
+.reviewCard > .reviewInfo > p {
+  color: rgba(0, 0, 0, 0.836);
+  font: 600 0.9vmax "Roboto";
+  margin: 0.3vw 0 0.5vw 0.1vw;
+}
+
+.reviewCardComment {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding-left: 2vw;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.795);
+  font: normal 1vmax cursive;
+}
+
+.noReviews {
+  margin-top: 2vw;
+  font: 500 1.2vw "Gill Sans";
+  text-align: center;
+  color: rgba(0, 0, 0, 0.722);
+}
+
+.userActivity {
+  width: 28%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+  width: 50%;
+  height: 3vw;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 1vw;
+  font-size: 1vw;
+}
+
+.submitReview {
+  border: none;
+  background-color: tomato;
+  font: 500 0.7vmax "Roboto";
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.submitReview:hover {
+  background-color: rgb(197, 68, 45);
+  transform: scale(1.1);
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}

@@ -1,0 +1,211 @@
+.LoginRegisterContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(231, 231, 231); */
+  background-image: url(../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+
+.goBack {
+  margin: 1vw;
+  width: 8%;
+  height: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.097);
+}
+
+.LoginRegisterBox {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 25%;
+  height: 70%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0.75vw;
+}
+
+.login_signUp_toggle {
+  display: flex;
+  height: 3.5vmax;
+}
+
+.login_signUp_toggle > p {
+  color: rgba(0, 0, 0, 0.75);
+  font: 600 1vw "Roboto";
+  transition: all 0.5s;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.login_signUp_toggle > p:hover {
+  color: tomato;
+  transform: scale(1.2);
+}
+
+.LoginRegisterBox > div > button {
+  background-color: crimson;
+  height: 5px;
+  width: 50%;
+  border: none;
+  transition: all 0.5s;
+}
+
+.loginForm,
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 1.5vw;
+  justify-content: space-around;
+  height: 70%;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.signUpForm {
+  transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginForm > div,
+.signUpForm > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.loginForm > div > input,
+.signUpForm > div > input {
+  padding: 1vw 3.5vw;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 0.75vw;
+  font: 500 1vw cursive;
+  outline: none;
+}
+
+.loginForm > div > .prefix,
+.signUpForm > div > .prefix {
+  position: absolute;
+  transform: translateX(1vw) translateY(0.9vw);
+  font-size: 1.8vw; /*kích cỡ của ảnh svg*/
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginForm > div > .suffix,
+.signUpForm > div > .suffix {
+  position: absolute;
+  transform: translateX(20vw) translateY(1.2vw);
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.loginForm > div > .suffix > .suffix-icon,
+.signUpForm > div > .suffix > .suffix-icon {
+  font-size: 1.3vw;
+}
+
+.svg_icons {
+  transform: scale(1.8);
+}
+
+.err {
+  color: red;
+  font: bold 0.75vw cursive;
+  padding-left: 0.9vw;
+}
+
+.loginForm > a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  align-self: flex-end;
+  transition: all 0.25s;
+  font: 500 1vw "Gill Sans";
+}
+
+.loginForm > a:hover {
+  color: crimson;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+.loginBtn,
+.signUpBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 500 1.2vw "Roboto";
+  width: 95%;
+  padding: 1vw 0.75vw;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 0.25vw;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.signUpBtn {
+  margin-top: 1vw;
+}
+
+.loginBtn:hover,
+.signUpBtn:hover {
+  background-color: rgb(179, 66, 46);
+  transform: scale(1.1);
+}
+
+#registerImage {
+  align-items: center !important;
+}
+
+#registerImage > img {
+  width: 6vw;
+  border-radius: 100%;
+  height: 6vw;
+  z-index: 1;
+}
+
+.addImage {
+  position: absolute;
+  transform: translateX(2.3vw) translateY(4.3vw);
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.addImage-icon {
+  font-size: 1.5vw;
+  transform: scale(1.35);
+}
+
+.shiftToLeft {
+  transform: translateX(-100%);
+}
+.shiftToNeutral {
+  transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+  transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight {
+  transform: translateX(100%);
+}

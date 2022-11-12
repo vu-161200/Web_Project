@@ -1,0 +1,176 @@
+.bookingContainer {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bookingHeading {
+  text-align: center;
+  color: tomato;
+  font: 700 1.3vmax "Roboto";
+  padding: 1vmax 0vmax;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  width: 25%;
+  margin: 1vh auto;
+}
+
+.bookingRoomHeader {
+  background-color: tomato;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  font: 300 1vmax "Roboto";
+}
+.bookingRoomHeader > p {
+  margin: 10px;
+}
+.bookingRoomHeader > p:last-child {
+  text-align: end;
+}
+
+.bookingRoomContainer {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  font: 300 1vmax "Roboto";
+}
+
+.CartItemCard {
+  display: flex;
+  padding: 1vmax;
+  height: 8vmax;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.CartItemCard > img {
+  width: 5vmax;
+  max-height: 5vmax;
+  min-height: 5vmax;
+}
+
+.CartItemCard > div {
+  display: flex;
+  margin: 0.3vmax 1vmax;
+  flex-direction: column;
+}
+
+.CartItemCard > div > a {
+  font: bold 0.9vmax "Roboto";
+  color: rgba(24, 24, 24, 0.815);
+  text-decoration: none;
+  margin-bottom: 1vh;
+}
+
+.CartItemCard > div > span {
+  font: 300 0.9vmax "Roboto";
+  color: rgba(24, 24, 24, 0.815);
+  margin-top: 1vh;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.bookingNumOfRooms {
+  display: flex;
+  align-items: center;
+  height: 8vmax;
+}
+
+.bookingNumOfRooms > button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  width: 2vw;
+}
+.bookingNumOfRooms > button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.bookingNumOfRooms > input {
+  border: none;
+  padding-left: 0.5vmax;
+  width: 2vmax;
+  text-align: center;
+  outline: none;
+  font: 400 0.8vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.cartSubtotal {
+  display: flex;
+  padding: 0.5vmax;
+  height: 8vmax;
+  align-items: center;
+  box-sizing: border-box;
+  font: 300 1vmax cursive;
+  justify-content: flex-end;
+  color: rgba(0, 0, 0, 0.753);
+}
+
+.bookingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  width: 30%;
+  transition: all 0.5s;
+}
+
+.bookingForm > label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.bookingForm > label > input {
+  margin-left: 2vw;
+  width: 100%;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker-wrapper {
+  margin-left: 1.1vw;
+}
+
+.react-datepicker__input-container > input {
+  width: 100%;
+}
+
+.bookingBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 1vmax "Roboto";
+  width: 100%;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  margin: 2vmax;
+  border-radius: 0.5vmax;
+}
+
+.bookingBtn:hover {
+  background-color: rgb(179, 66, 46);
+  transform: scale(1.1);
+}

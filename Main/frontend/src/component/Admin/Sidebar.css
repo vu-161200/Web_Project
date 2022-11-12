@@ -1,0 +1,58 @@
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+  font: 200 1rem "Roboto";
+  padding: 2rem;
+  transition: all 0.5s;
+}
+
+.sidebar a:hover {
+  color: tomato;
+  transform: scale(1.1);
+}
+
+.sidebar a > P {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a > P > svg {
+  margin-right: 1vmax;
+}
+
+.MuiTypography-root {
+  background-color: #fff !important;
+}
+
+.MuiTreeView-root {
+  margin-left: 2rem !important;
+  padding: 1.5rem 0 !important;
+}
+
+.MuiCollapse-wrapperInner {
+  margin-left: 0.75rem !important;
+}
+
+.MuiTreeItem-content {
+  color: rgba(0, 0, 0, 0.493);
+  padding: 0.25rem 0.5rem !important;
+  width: inherit !important;
+  transition: all 0.5s;
+}
+
+.MuiTreeItem-iconContainer > .MuiSvgIcon-root {
+  margin-right: 0.5rem;
+  font-size: 1.5rem !important;
+}
+
+.MuiTreeItem-content:hover {
+  color: tomato;
+  transform: scale(1.05);
+}

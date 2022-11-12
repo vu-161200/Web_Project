@@ -1,0 +1,205 @@
+.roomHeading {
+  margin: 4vmax auto;
+  width: 15vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 1vmax;
+  color: rgba(0, 0, 0, 0.75);
+  font: 700 1.5vw "Roboto";
+  text-align: center;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 13vh 6vw 6vh 6vw;
+  padding: 2vh 0.25vw;
+  border-radius: 0.5vmax;
+  justify-content: space-evenly;
+  background-color: aqua;
+}
+
+.filterContainer > div:not(:last-child) {
+  width: 15%;
+  background-color: white;
+  border-radius: 0.25vmax;
+  padding: 0.5vmax;
+}
+
+.filterContainer > div:not(:last-child) > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.filterContainer > div:last-child {
+  width: 8%;
+  background-color: rgba(35, 35, 151, 0.751);
+  color: white;
+  border-radius: 0.5vmax;
+  padding: 0.5vmax;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.filterContainer > div:last-child:hover {
+  background-color: rgba(20, 20, 231, 0.978);
+}
+
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2vw;
+  justify-content: center;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.pagination > li > a {
+  font-size: 1vw;
+  font-family: "Roboto";
+}
+
+.page-item {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  padding: 0.5vw 1.25vw;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.page-item:first-child {
+  border-radius: 1vw 0 0 1vw;
+}
+
+.page-item:last-child {
+  border-radius: 0 1vw 1vw 0;
+}
+
+.page-link {
+  text-decoration: none;
+  font: 300 0.7vmax "Roboto";
+  color: rgb(80, 80, 80);
+  transition: all 0.3s;
+}
+
+.page-item:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.page-item:hover .page-link {
+  color: rgb(0, 0, 0);
+}
+
+.pageItemActive {
+  background-color: tomato;
+}
+
+.pageLinkActive {
+  color: white;
+}
+
+.filterBox {
+  width: 10vmax;
+  position: absolute;
+  top: 10vmax;
+  left: 4vmax;
+}
+
+.filterBox > Slider {
+  font-size: 5vw;
+}
+
+.categoryBox {
+  padding: 0%;
+}
+
+.category-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.61);
+  font: 400 0.8vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.category-link:hover {
+  color: tomato;
+}
+
+.filterBox > fieldset {
+  border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.listProvinces {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.listProvinces > li > input {
+  text-align: center;
+}
+
+.listProvinces > li {
+  display: flex;
+
+  margin-top: 1.5vh;
+  padding: 0.5vmax;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.326);
+}
+
+.listProvinces > li:hover {
+  color: blue;
+}
+
+.listProvinces > li > input {
+  margin-right: 0.5vmax;
+}
+
+.slidePrice > p {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: red;
+}
+
+.slidePrice > span {
+  width: 98%;
+}
+
+.confirmDialog {
+  color: black;
+  font: bold 1vmax "Roboto";
+  text-align: center;
+  padding: 1vmax;
+  width: 100%;
+  background-color: aquamarine;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.confirmDialog:hover {
+  background-color: rgb(60, 165, 130);
+  color: white;
+  transform: scale(1.015);
+}
+
+.MuiSlider-thumb {
+  width: 24px !important;
+  height: 24px !important;
+  margin-top: -12px !important;
+}

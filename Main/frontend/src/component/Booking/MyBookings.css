@@ -1,0 +1,53 @@
+.myBookingsPage {
+  max-width: 100%;
+  padding: 2vmax 5vmax;
+  height: 98vh;
+  box-sizing: border-box;
+}
+
+#myBookingsHeading {
+  width: 25%;
+  margin: auto;
+  margin-top: 11vh;
+  margin-bottom: 3vh;
+  text-align: center;
+  font: 500 1.5vmax "Roboto";
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  color: black;
+  transition: all 0.5s;
+  border-bottom: 1px solid black;
+}
+
+.myBookingsTable {
+  background-color: white;
+}
+
+.myBookingsTable div {
+  font: 300 1vmax "Roboto";
+  color: rgba(0, 0, 0, 0.678);
+  border: none;
+}
+
+.myBookingsTable a {
+  color: rgba(0, 0, 0, 0.527);
+  transition: all 0.5s;
+}
+
+.myBookingsTable a:hover {
+  color: tomato;
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: tomato;
+  padding: 1vmax !important;
+}
+
+.MuiDataGrid-columnHeader div {
+  color: rgb(255, 255, 255);
+  font: 500 1.1vmax "Roboto" !important;
+}
+
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}

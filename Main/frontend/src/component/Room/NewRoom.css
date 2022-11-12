@@ -1,0 +1,231 @@
+.newRoomContainer {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  padding: 5vmax;
+}
+
+.newRoomForm {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5vmax;
+}
+
+.roomAddress {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 70%;
+}
+
+.roomAddressMap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: 1vw;
+}
+
+.roomAddressExactly {
+  display: flex;
+  flex-direction: row;
+}
+
+.roomAddressExactly > label:first-child > input {
+  width: 90%;
+}
+
+.roomAddressExactly > label:last-child {
+  width: 80%;
+}
+
+.roomAddressExactly > label:last-child > input {
+  width: 100%;
+}
+
+.heading {
+  font: 700 2vmax "Roboto";
+  text-align: start;
+  border-bottom: 1px solid gray;
+  margin: 4vh 0;
+}
+
+.subHeading {
+  margin-bottom: 1.5vh;
+  margin-top: 2vh;
+  font-family: "Roboto";
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.form-group > label > input {
+  width: 90%;
+}
+
+.form-group > label:last-child {
+  margin-left: 1vw;
+}
+
+.form-group > label:last-child > input {
+  width: 100%;
+}
+
+.form-group-price,
+.form-group-price input {
+  width: 50%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  font: bold 1vmax "Roboto";
+}
+
+label input,
+label select,
+label textarea {
+  font: 300 0.9vmax cursive;
+  margin-top: 0.75vh;
+  padding: 0.5vmax 1vmax;
+  padding-right: 1vmax;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+  width: 70%;
+}
+
+#newRoomFormFile > input {
+  display: flex;
+  padding: 0%;
+}
+
+#newRoomFormFile > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: dotted 1px gray;
+  margin: 0%;
+  font: 400 0.8vmax cursive;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+}
+
+#newRoomFormFile > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+#newRoomFormImage {
+  width: 100%;
+  overflow: auto;
+}
+
+#newRoomFormImage > img {
+  width: 5vmax;
+  height: 3vmax;
+  object-fit: cover;
+  margin: 0.5vmax 0.5vmax 0 0;
+}
+
+#newRoomBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 500 0.9vmax "Roboto";
+  width: 70%;
+  margin-top: 5vmax;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 0.25vmax;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+#newRoomBtn:hover {
+  background-color: rgb(179, 66, 46);
+}
+
+/* .newRoomForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.newRoomForm > div > input,
+.newRoomForm > div > select,
+.newRoomForm > div > textarea {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+
+.newRoomForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+#newRoomFormFile > input {
+  display: flex;
+  padding: 0%;
+}
+
+#newRoomFormFile > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: none;
+  margin: 0%;
+  font: 400 0.8vmax cursive;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+}
+
+#newRoomFormFile > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+#createRoomFormImage {
+  width: 100%;
+  overflow: auto;
+}
+
+#createRoomFormImage > img {
+  width: 3vmax;
+  margin: 0 0.5vmax;
+}
+#createRoomBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 0.9vmax "Roboto";
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+#createRoomBtn:hover {
+  background-color: rgb(179, 66, 46);
+} */

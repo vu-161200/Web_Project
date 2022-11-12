@@ -1,0 +1,128 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+
+  background-color: white;
+  display: flex;
+  /* overflow: hidden; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid gray; */
+  height: 7.8vh;
+  padding: 0 1vmax;
+}
+
+.logo {
+  flex: 1;
+  font-family: Chilanka;
+}
+
+.logo > h1 {
+  font-size: 1.5vmax;
+}
+
+a {
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  color: #555;
+}
+
+header > ul {
+  flex: 10;
+  display: flex;
+  gap: 1vmax;
+  justify-content: flex-end;
+}
+
+header > ul > li {
+  display: inline-block;
+  padding: 0 1vmax;
+  font-size: 1.05vmax;
+  font-family: Roboto;
+  position: relative;
+  transition: all 1s;
+}
+
+header > ul > li::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0.1vmax;
+  background: crimson;
+  transition: width 0.5s;
+}
+
+header > ul > li:hover::before {
+  width: 100%;
+}
+
+header > ul > li:hover {
+  text-shadow: 0 0 3px crimson;
+}
+
+header > ul > li > a:hover {
+  color: crimson;
+}
+
+.btnDN {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border: solid 1px transparent;
+  flex: 1;
+  text-align: center;
+  font-size: 0.8vmax;
+  padding: 0.8vmax 1vmax 0.8vmax 1vmax;
+  margin-left: 3vmax;
+  margin-right: 4vmax;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 10px 14px 1px rgba(251, 161, 40, 0.42);
+}
+
+.btnDN:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid orange;
+  color: orange;
+}
+
+.speedDial {
+  position: absolute;
+  width: 3.5vw;
+  height: 3.5vw;
+  right: 7vw;
+  top: 1.7vh;
+}
+
+.speedDialIcon {
+  width: 3vw;
+  height: 3vw;
+  object-fit: cover;
+
+  border-radius: 100%;
+}
+
+.MuiSpeedDialAction-staticTooltipLabel {
+  width: 5vmax;
+}
+
+/* .MuiSpeedDialAction-staticTooltipLabel {
+  background-color: rgba(255, 255, 255, 0.343) !important;
+} */
+
+.MuiFab-primary {
+  background-color: transparent !important;
+}
+
+.MuiFab-root {
+  box-shadow: none !important;
+}
+
+.MuiSpeedDial-root {
+  z-index: 0 !important;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* .App {
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.red_color {
+  color: red !important;
+}
+
+.green_color {
+  color: green !important;
+}
+
+.orange_color {
+  color: orange !important;
+}

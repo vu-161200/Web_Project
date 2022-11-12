@@ -1,0 +1,24 @@
+.mapboxContainer {
+  height: 92vh;
+  top: 8vh;
+  position: relative;
+}
+
+.homeHeading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  margin: 5vmax auto;
+  padding: 1vmax;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.listContainer {
+  display: flex;
+  /* margin: 2vmax auto; */
+  /* width: 90vw; */
+  flex-wrap: wrap;
+  justify-content: center;
+}

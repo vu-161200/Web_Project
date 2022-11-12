@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" width="150" height="150">
+  <defs>
+    <linearGradient id="~Ki3qs9k5shHb6mAaqs0pb" x1="19.5" x2="19.5" y1="7" y2="41" gradientTransform="matrix(1.03 0 0 1 3.909 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fc0f8" />
+      <stop offset="1" stop-color="#005cb3" />
+    </linearGradient>
+    <linearGradient id="~Ki3qs9k5shHb6mAaqs0pa" x1="3" x2="36" y1="24" y2="24" gradientTransform="matrix(1.03 0 0 1 3.909 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5cbfe6" stop-opacity="0" />
+      <stop offset=".433" stop-color="#5bbde4" stop-opacity=".015" />
+      <stop offset=".589" stop-color="#55b6de" stop-opacity=".072" />
+      <stop offset=".7" stop-color="#4cabd4" stop-opacity=".169" />
+      <stop offset=".79" stop-color="#409ac4" stop-opacity=".309" />
+      <stop offset=".867" stop-color="#2f84b1" stop-opacity=".491" />
+      <stop offset=".934" stop-color="#1b6a99" stop-opacity=".711" />
+      <stop offset=".994" stop-color="#034b7c" stop-opacity=".97" />
+      <stop offset="1" stop-color="#004779" />
+    </linearGradient>
+    <linearGradient id="~Ki3qs9k5shHb6mAaqs0pc" x1="-1119" x2="-1086" y1="-724" y2="-724" gradientTransform="matrix(1.03 0 0 1 1159.909 748)" xlink:href="#~Ki3qs9k5shHb6mAaqs0pa" />
+    <linearGradient id="~Ki3qs9k5shHb6mAaqs0pd" x1="-393" x2="-360" y1="-1880" y2="-1880" gradientTransform="matrix(1.03 0 0 1 411.909 1904)" xlink:href="#~Ki3qs9k5shHb6mAaqs0pa" />
+    <linearGradient id="~Ki3qs9k5shHb6mAaqs0pe" x1="729" x2="762" y1="-1132" y2="-1132" gradientTransform="matrix(1.03 0 0 1 -744.091 1156)" xlink:href="#~Ki3qs9k5shHb6mAaqs0pa" />
+    <linearGradient id="~Ki3qs9k5shHb6mAaqs0pf" x1="24" x2="24" y1="13.336" y2="34.664" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" />
+      <stop offset=".325" stop-color="#fbfbfc" />
+      <stop offset=".662" stop-color="#eeeef4" />
+      <stop offset="1" stop-color="#dadae6" />
+    </linearGradient>
+  </defs>
+  <g data-name="keycaps">
+    <rect width="34" height="34" x="7" y="7" fill="url(#~Ki3qs9k5shHb6mAaqs0pb)" rx="3" />
+    <g opacity=".5">
+      <rect width="34" height="34" x="7" y="7" fill="url(#~Ki3qs9k5shHb6mAaqs0pa)" rx="3" />
+      <rect width="34" height="34" x="7" y="7" fill="url(#~Ki3qs9k5shHb6mAaqs0pc)" rx="3" transform="rotate(-90 24 24)" />
+      <rect width="34" height="34" x="7" y="7" fill="url(#~Ki3qs9k5shHb6mAaqs0pd)" rx="3" transform="rotate(180 24 24)" />
+      <rect width="34" height="34" x="7" y="7" fill="url(#~Ki3qs9k5shHb6mAaqs0pe)" rx="3" transform="rotate(90 24 24)" />
+    </g>
+    <path fill="url(#~Ki3qs9k5shHb6mAaqs0pf)" d="M24.352,28.658H21.993l-.844,5.167a1,1,0,0,1-.987.839h-.889a1,1,0,0,1-.987-1.161l.792-4.845H16.826a1,1,0,0,1-1-1v-.68a1,1,0,0,1,1-1h2.692l.644-3.868H17.925a1,1,0,0,1-1-1v-.68a1,1,0,0,1,1-1H20.6l.872-5.258a1,1,0,0,1,.986-.836h.876a1,1,0,0,1,.987,1.161l-.806,4.933h2.358l.872-5.258a1,1,0,0,1,.987-.836h.887a1,1,0,0,1,.987,1.164l-.818,4.93h2.384a1,1,0,0,1,1,1v.68a1,1,0,0,1-1,1H28.351l-.645,3.868h2.355a1,1,0,0,1,1,1v.68a1,1,0,0,1-1,1H27.267l-.845,5.167a1,1,0,0,1-.987.839h-.888A1,1,0,0,1,23.56,33.5Zm-1.919-2.68h2.358l.645-3.868H23.077Z" />
+  </g>
+</svg>

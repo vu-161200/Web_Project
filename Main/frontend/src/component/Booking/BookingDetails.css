@@ -1,0 +1,32 @@
+.bookingDetailsPage {
+  margin-top: 8vh;
+  background-color: white;
+}
+
+.bookingDetailsPage > h1 {
+  font: 300 3vmax "Roboto";
+  margin-top: 10vh;
+  color: tomato;
+}
+
+.confirmRoomBooked {
+  margin-bottom: 3vh;
+}
+
+.confirmRoomBooked > div {
+  margin: 1vmax 2vmax;
+}
+
+.confirmRoomBooked > p {
+  margin-bottom: 2vmax;
+}
+
+.bookingSummaryTotal {
+  margin-bottom: 0;
+}
+
+.bookingDetailsPayment {
+  font: 300 1vmax "Roboto";
+  display: flex;
+  justify-content: space-between;
+}
